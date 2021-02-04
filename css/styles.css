@@ -43,8 +43,10 @@ li a:hover {
 }
 
 .text2 {
-	color: black;
+	color: purple;
 	text-align: center;
+	font-size: 14pt;
+	font-family: "Times New Roman", Times, serif;
 }
 
 /* image */
@@ -91,7 +93,12 @@ margin: 15px 0 0 0;
 	margin-bottom: 0.5rem;
 }
 
-.container-outer {
+.paragraphEnd {
+	color: green;
+	text-align: center;
+}
+
+.my-container {
     background-color: lightcoral;
     border-radius: 20px;
     border: 5px solid black;
@@ -115,6 +122,13 @@ margin: 15px 0 0 0;
 	color: white;
 	padding: 10px;
 	text-align: center;
+}
+
+#headerInside {
+	text-align: center;
+	margin-top: 10px;
+	color: cyan;
+	
 }
 
 /* Make sure that padding behaves as expected */
